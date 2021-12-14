@@ -8,14 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-<p id="a">firstP</p>
+<p id="firstP">firstP</p>
 <script type="text/javascript">
-    function addNode () { var newP = document. createElement("p");
-        var textNode = document.createTextNode(" This is a new text node");
-        newP.appendChild(textNode)
-       document.getElementById("a").appendChild(newP);
-    }
-    addNode();
+    document.getElementById("firstP").style.fontSize = "5em";
+    document.getElementById("firstP").className = "anyclass";
 </script>
 </body>
 </html>
